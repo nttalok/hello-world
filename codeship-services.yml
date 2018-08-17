@@ -1,0 +1,6 @@
+codeship_example:
+  build:
+    image: hello-nttdata
+    dockerfile: Dockerfile
+  environment:
+    HELLO_NTTDATA_ENV_VAR: Hello
